@@ -3,35 +3,10 @@
   "identifier": "com.troyzx.livecontainer.source",
   "apiVersion": "v2",
   "subtitle": "Curated SideStore / LiveContainer source with upstream-first builds.",
-  "description": "Curated source for LiveContainer/SideStore. Direct-install entries prefer upstream project releases. Instagram/Sparkle is intentionally not mirrored here because the developer distributes pre-injected IPAs only via the official Telegram channel; see README for the verified manual path.",
+  "description": "Curated source for LiveContainer/SideStore. Direct-install entries prefer upstream project releases. TikTok and Instagram are intentionally not mirrored when no trustworthy upstream pre-injected IPA is available; see README for the recommended manual paths.",
   "website": "https://github.com/troyzx/scripts/tree/master/ios-alt-source",
   "sourceURL": "https://raw.githubusercontent.com/troyzx/scripts/master/ios-alt-source/source.json",
   "apps": [
-    {
-      "name": "RXTikTok",
-      "bundleIdentifier": "com.zhiliaoapp.musically",
-      "developerName": "raulsaeed / RXTikTok",
-      "subtitle": "Official RXTikTok release; lifetime license required.",
-      "category": "social-networking",
-      "version": "1.6.6",
-      "versionDate": "2026-03-08",
-      "versionDescription": "Official upstream RXTikTok v1.6.6 bundled with TikTok 43.9.0.2.",
-      "downloadURL": "https://github.com/RXTikTok/rxtiktok.github.io/releases/download/1.6.6/RXTikTok-v1.6.6_43.9.0.2.ipa",
-      "size": 361528379,
-      "localizedDescription": "Official RXTikTok IPA from the RXTikTok GitHub release. Keeps the original TikTok bundle identifier com.zhiliaoapp.musically. RXTikTok requires its own paid lifetime license. Prefer this over random repacks. If follow/login behavior is still abnormal, test the same account on TikTok Web or the App Store client before blaming LiveContainer.",
-      "iconURL": "https://raw.githubusercontent.com/RXTikTok/rxtiktok.github.io/refs/heads/main/icons/RXLogo.jpg",
-      "tintColor": "9b54fd",
-      "versions": [
-        {
-          "version": "1.6.6",
-          "date": "2026-03-08",
-          "downloadURL": "https://github.com/RXTikTok/rxtiktok.github.io/releases/download/1.6.6/RXTikTok-v1.6.6_43.9.0.2.ipa",
-          "size": 361528379,
-          "minOSVersion": "15.0",
-          "localizedDescription": "Official upstream RXTikTok v1.6.6 / TikTok 43.9.0.2."
-        }
-      ]
-    },
     {
       "name": "X + NeoFreeBird",
       "bundleIdentifier": "com.atebits.Tweetie2",
