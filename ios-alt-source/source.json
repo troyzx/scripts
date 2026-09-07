@@ -1,0 +1,104 @@
+{
+  "name": "Troy LC Source",
+  "identifier": "com.troyzx.livecontainer.source",
+  "apiVersion": "v2",
+  "subtitle": "Curated SideStore / LiveContainer source with upstream-first builds.",
+  "description": "Curated source for LiveContainer/SideStore. Direct-install entries prefer upstream project releases. Instagram/Sparkle is intentionally not mirrored here because the developer distributes pre-injected IPAs only via the official Telegram channel; see README for the verified manual path.",
+  "website": "https://github.com/troyzx/scripts/tree/master/ios-alt-source",
+  "sourceURL": "https://raw.githubusercontent.com/troyzx/scripts/master/ios-alt-source/source.json",
+  "apps": [
+    {
+      "name": "RXTikTok",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "developerName": "raulsaeed / RXTikTok",
+      "subtitle": "Official RXTikTok release; lifetime license required.",
+      "category": "social-networking",
+      "version": "1.6.6",
+      "versionDate": "2026-03-08",
+      "versionDescription": "Official upstream RXTikTok v1.6.6 bundled with TikTok 43.9.0.2.",
+      "downloadURL": "https://github.com/RXTikTok/rxtiktok.github.io/releases/download/1.6.6/RXTikTok-v1.6.6_43.9.0.2.ipa",
+      "size": 361528379,
+      "localizedDescription": "Official RXTikTok IPA from the RXTikTok GitHub release. Keeps the original TikTok bundle identifier com.zhiliaoapp.musically. RXTikTok requires its own paid lifetime license. Prefer this over random repacks. If follow/login behavior is still abnormal, test the same account on TikTok Web or the App Store client before blaming LiveContainer.",
+      "iconURL": "https://raw.githubusercontent.com/RXTikTok/rxtiktok.github.io/refs/heads/main/icons/RXLogo.jpg",
+      "tintColor": "9b54fd",
+      "versions": [
+        {
+          "version": "1.6.6",
+          "date": "2026-03-08",
+          "downloadURL": "https://github.com/RXTikTok/rxtiktok.github.io/releases/download/1.6.6/RXTikTok-v1.6.6_43.9.0.2.ipa",
+          "size": 361528379,
+          "minOSVersion": "15.0",
+          "localizedDescription": "Official upstream RXTikTok v1.6.6 / TikTok 43.9.0.2."
+        }
+      ]
+    },
+    {
+      "name": "X + NeoFreeBird",
+      "bundleIdentifier": "com.atebits.Tweetie2",
+      "developerName": "NeoFreeBird contributors / orionblur",
+      "subtitle": "Official NeoFreeBird X-branded sideload build.",
+      "category": "social-networking",
+      "version": "12.21",
+      "versionDate": "2026-09-04",
+      "versionDescription": "NeoFreeBird 6.6.1 on X 12.21.",
+      "downloadURL": "https://github.com/orionblur/NeoFreeBird/releases/download/v6.6.1/orionblur-NFB-BHTwitter-sideloaded-X_6.6.1_12.21.ipa",
+      "size": 251173328,
+      "localizedDescription": "Official NeoFreeBird sideload release from orionblur. v6.6.1 fixes voice-message downloading and a confirmation-prompt crash. X applies server-side attestation to some actions, so Apple/Google login and some posting flows can still be limited; email/password login is usually the safest path.",
+      "iconURL": "https://raw.githubusercontent.com/orionblur/NeoFreeBird/v6/x_icon_rounded.png",
+      "tintColor": "000000",
+      "versions": [
+        {
+          "version": "12.21",
+          "buildVersion": "26",
+          "date": "2026-09-04T02:07:56Z",
+          "downloadURL": "https://github.com/orionblur/NeoFreeBird/releases/download/v6.6.1/orionblur-NFB-BHTwitter-sideloaded-X_6.6.1_12.21.ipa",
+          "size": 251173328,
+          "minOSVersion": "15.0",
+          "localizedDescription": "NeoFreeBird 6.6.1 / X 12.21. Fixes voice-message downloading and a crash around confirmation prompts."
+        },
+        {
+          "version": "12.15",
+          "buildVersion": "11",
+          "date": "2026-08-27T00:27:58Z",
+          "downloadURL": "https://github.com/orionblur/NeoFreeBird/releases/download/v6.5.1/orionblur-NFB-BHTwitter-sideloaded-X_6.5.1_12.15.ipa",
+          "size": 231165488,
+          "minOSVersion": "15.0",
+          "localizedDescription": "NeoFreeBird 6.5.1 / X 12.15. Includes LiveContainer first-launch fixes."
+        }
+      ]
+    },
+    {
+      "name": "YouTubePlus (YTLite community build)",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "dayanch96 + community build by mrdrvt99",
+      "subtitle": "Recent YTLite/YouTubePlus community build; not an official dayanch96 IPA.",
+      "category": "photo-video",
+      "version": "21.24.3",
+      "versionDate": "2026-08-16",
+      "versionDescription": "YouTube 21.24.3 + YouTubePlus 5.2.2 community build.",
+      "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa4/YouTubePlus_21.24.3_5.2.2.ipa",
+      "size": 128922222,
+      "localizedDescription": "Convenience build from mrdrvt99's automated AltStore repository, based on dayanch96 YouTube Plus/YTLite 5.2.2. This is NOT an official binary from dayanch96. The official YTLite project does not distribute decrypted YouTube IPAs for legal reasons and recommends building with your own decrypted base IPA. Use this entry for convenience; for maximum supply-chain trust, build from dayanch96/YTLite yourself.",
+      "iconURL": "https://raw.githubusercontent.com/mrdrvt99/Altstore-Repository/main/assets/YouTube.png",
+      "tintColor": "FF0000",
+      "versions": [
+        {
+          "version": "21.24.3",
+          "date": "2026-08-16",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa4/YouTubePlus_21.24.3_5.2.2.ipa",
+          "size": 128922222,
+          "minOSVersion": "16.0",
+          "localizedDescription": "YouTubePlus 5.2.2 / YouTube 21.24.3 community build. Chosen because newer YouTube bases were reported less stable with bundled tweaks at the time of packaging."
+        },
+        {
+          "version": "20.21.6",
+          "date": "2026-08-16",
+          "downloadURL": "https://github.com/mrdrvt99/YouProEXTRA/releases/download/ytl-ipa3/YouTubePlus_20.21.6_5.2.2.ipa",
+          "size": 115459175,
+          "minOSVersion": "15.0",
+          "localizedDescription": "iOS 15-compatible YouTubePlus 5.2.2 community build."
+        }
+      ]
+    }
+  ]
+}
