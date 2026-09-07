@@ -12,14 +12,31 @@ https://raw.githubusercontent.com/troyzx/scripts/master/ios-alt-source/source.js
 
 ## What is included
 
-### TikTok — RXTikTok
+### TikTok — BHTikTokPlus (manual on purpose)
 
-- Source type: **official upstream IPA**
-- Project source: `https://raw.githubusercontent.com/RXTikTok/rxtiktok.github.io/refs/heads/main/source.json`
-- Included build: RXTikTok 1.6.6 / TikTok 43.9.0.2
-- Bundle ID kept as `com.zhiliaoapp.musically`
-- RXTikTok requires its own lifetime license.
-- If follow/login still behaves abnormally, test the same account on TikTok Web / App Store TikTok before assuming LiveContainer is the cause.
+RXTikTok was removed from this source because its current license flow requires a private/off-store payment arrangement, which does not fit the trust model of this curated source.
+
+Recommended free replacement: **BHTikTokPlus 46.2.0**.
+
+- Tweak source: `https://github.com/raulsaeed/BHTikTokPlusPlus`
+- Upstream lineage: fork of `https://github.com/BandarHL/BHTikTok`
+- Bundle ID should remain `com.zhiliaoapp.musically`
+- Recent August 2026 community reports describe BHTikTokPlus 46.2.0 as working well, including on current sideload setups.
+- The tweak source is public Objective-C code, which is preferable to opaque paid/cracked tweaks.
+
+Why it is **not** directly placed in `source.json`: the current 46.2.0 prebuilt IPA is distributed by third-party IPA repositories rather than by the tweak's GitHub repository. Automatically mirroring one of those binaries here would weaken the supply-chain rule.
+
+Convenience source if you want the current prebuilt IPA:
+
+```text
+https://fastsign.dev/repo.lite.altstore.json
+```
+
+Add Alan's Gigantic Repo separately and search for `BHTikTokPlus`. Treat it as a third-party build/aggregator, not an upstream binary.
+
+For maximum trust, use the open-source BHTikTokPlus tweak with a decrypted TikTok base IPA and LiveContainer's app-specific TweakLoader rather than a random pre-injected IPA.
+
+TikTok modified clients can still hit server-side anti-abuse behavior. If follow/login is abnormal, test the same account in TikTok Web or the App Store client, and keep the original bundle identifier.
 
 ### X — NeoFreeBird
 
